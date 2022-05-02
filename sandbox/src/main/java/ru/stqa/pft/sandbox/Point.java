@@ -9,4 +9,5 @@ public class Point {
   public static double distance(PointDatas d) {
     return Math.sqrt(d.x2 - d.x1) * (d.x2 - d.x1) + (d.y2 - d.y1) * (d.y2 - d.y1);
   }
+
 }
